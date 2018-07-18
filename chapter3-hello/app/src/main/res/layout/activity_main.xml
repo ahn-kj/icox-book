@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- XML 파일에서 주석을 사용하는 법입니다. -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
