@@ -46,11 +46,19 @@ public class MainActivity extends AppCompatActivity {
                 }
                 */
 
+                // while 문 실습
+                /*
+                int i = 0;
+                while (i < clickCount) {
+                    Toast.makeText(getApplicationContext(), "반복: " + (i + 1), Toast.LENGTH_SHORT).show();
+                }
+                */
+
                 // 클릭된 횟수만큼 반복하면서 반복된 횟수 메세지를 보여준다.
                 for (int i = 0; i < clickCount; i++) {
                     // 만일 반복횟수가 3번을 넘어선다면 반복문을 중지한다.
 
-                    if(i >= 3){
+                    if (i >= 3) {
                         break;
                     }
                     Toast.makeText(getApplicationContext(), "반복: " + (i + 1), Toast.LENGTH_SHORT).show();
